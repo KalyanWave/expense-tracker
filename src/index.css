@@ -1,0 +1,34 @@
+/* Reset default browser spacing */
+* {
+  box-sizing: border-box;
+}
+
+/* Base body styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Improve button & input touch experience */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* Prevent horizontal scrolling issues */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
